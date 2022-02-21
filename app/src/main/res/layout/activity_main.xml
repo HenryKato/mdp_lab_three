@@ -6,25 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/tvTittle"
-        android:layout_width="match_parent"
-        android:layout_height="55dp"
-        android:background="@color/purple_700"
-        android:text="Dinner Decider"
-        android:paddingStart="8dp"
-        android:gravity="bottom"
-        android:textColor="@color/white"
-        android:textSize="24sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <Space
         android:id="@+id/spaceAfterTittle"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvTittle" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/ivImage"
